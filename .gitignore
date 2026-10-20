@@ -1,0 +1,32 @@
+# Private archives and original exports
+/archives/
+/exports/
+/project-names.json
+/last-archive.txt
+/chat.html
+/conversations.json
+/conversations-*.json
+/*.dat
+/assets.json
+/library_files.json
+/conversation_asset_file_names.json
+
+# Python and local test outputs
+__pycache__/
+*.py[cod]
+/tests/.runs/
+.venv/
+venv/
+
+# Local development snapshots and packaging
+/backups/
+/*.png
+/*.zip
+/*verification*.json
+/project-upgrade-before.json
+
+# Local environment and OS files
+.env
+.env.*
+Thumbs.db
+.DS_Store
